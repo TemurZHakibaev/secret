@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#wrapper {
+  width: 800px;
+  height: 400px;
+  margin: auto;
+  padding: 20px;
+}
+
+#item {
+  height: 200px;
+  transition: 0.5s;
+  background-color: red;
+}
+
+.active {
+  height: 300px;
+  transition: 0.5s;
+}
